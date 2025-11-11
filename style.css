@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+}
+
+.todo-container {
+    margin: 20px auto;
+    width: 320px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+#taskInput {
+    width: 200px;
+    padding: 5px;
+}
+
+#addTaskBtn {
+    padding: 6px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#addTaskBtn:hover {
+    background-color: #45a049;
+}
+
+/* Filter buttons */
+.filters {
+    margin-top: 10px;
+}
+.filterBtn {
+    margin: 3px;
+    padding: 5px 10px;
+    background: #90caf9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filterBtn:hover {
+    background: #42a5f5;
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+}
+
+.todo-container {
+    margin: 20px auto;
+    width: 320px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+#taskInput {
+    width: 200px;
+    padding: 5px;
+}
+
+#addTaskBtn {
+    padding: 6px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#addTaskBtn:hover {
+    background-color: #45a049;
+}
+
+/* Filter buttons */
+.filters {
+    margin-top: 10px;
+}
+.filterBtn {
+    margin: 3px;
+    padding: 5px 10px;
+    background: #90caf9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filterBtn:hover {
+    background: #42a5f5;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+li {
+    background: #e3f2fd;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #c8e6c9;
+}
+
+.deleteBtn {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+li {
+    background: #e3f2fd;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #c8e6c9;
+}
+
+.deleteBtn {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
